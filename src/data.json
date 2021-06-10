@@ -1,6 +1,6 @@
 {
-  "lastPostId": 1,
-  "lastCommentId": 2,
+  "nextPostId": 5,
+  "nextCommentId": 6,
   "posts": [
     {
       "id": 1,
@@ -8,7 +8,7 @@
       "coverUrl": "https://miro.medium.com/max/1024/1*OohqW5DGh9CQS4hLY5FXzA.png",
       "contentPreview": "Esta é a estrutura de um post esperado pelo front-end",
       "content": "Este é o conteúdo do post, o que realmente vai aparecer na página do post...",
-      "commentCount": 2
+      "commentCount": 4
     }
   ],
   "comments": [
