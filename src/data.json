@@ -1,1 +1,28 @@
-{"nextPostId":5,"nextCommentId":9,"posts":[{"id":1,"title":"Hello World","coverUrl":"https://miro.medium.com/max/1024/1*OohqW5DGh9CQS4hLY5FXzA.png","contentPreview":"Esta é a estrutura de um post esperado pelo front-end","content":"Este é o conteúdo do post, o que realmente vai aparecer na página do post...","commentCount":7}],"comments":[{"id":1,"postId":1,"author":"João","content":"Muito bom esse post! Tá de parabéns"},{"id":2,"postId":1,"author":"Maria","content":"Como faz pra dar palmas?"},{"id":6,"postId":1,"name":"Jão","content":"kjdhfjkhf"},{"id":7,"postId":1,"author":"jão","content":"aaaa"},{"id":8,"postId":1,"author":"dddd","content":"ssss"}]}
+{
+  "nextPostId": 2,
+  "nextCommentId": 3,
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "coverUrl": "https://miro.medium.com/max/1024/1*OohqW5DGh9CQS4hLY5FXzA.png",
+      "contentPreview": "Esta é a estrutura de um post esperado pelo front-end",
+      "content": "Este é o conteúdo do post, o que realmente vai aparecer na página do post...",
+      "commentCount": 7
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": "João",
+      "content": "Muito bom esse post! Tá de parabéns"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "author": "Maria",
+      "content": "Como faz pra dar palmas?"
+    }
+  ]
+}
