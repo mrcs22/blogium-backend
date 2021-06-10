@@ -45,4 +45,12 @@ app.post("/posts", (req, res) => {
   res.send("ok");
 });
 
+app.get("/posts/:id/comments", (req, res) => {
+  const postId = parseInt(req.params.id);
+
+  const postComments = comments.filter((c) => c.postId === postId);
+
+  res.send(postComments);
+});
+
 app.listen(4000);
