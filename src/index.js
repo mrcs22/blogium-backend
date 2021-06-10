@@ -70,7 +70,7 @@ app.post("/posts/:id/comments", (req, res) => {
   comments.push(comment);
   fs.writeFileSync("./src/data.json", JSON.stringify(data));
 
-  res.send("ok");
+  res.send(comments.filter((c) => c.postId === postId));
 });
 
 app.listen(4000);
