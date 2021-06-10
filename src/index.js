@@ -22,12 +22,11 @@ app.get("/posts", (req, res) => {
 });
 
 app.get("/posts/:id", (req, res) => {
-  const index = req.params.id;
-  if (id >= 0 && id < posts.length) {
-    res.send(posts[index]);
-  } else {
-    res.send("invalid id");
-  }
+  const id = req.params.id;
+
+  const post = posts.find((p) => p.id === parseInt(id));
+
+  res.send(post);
 });
 
 app.post("/posts", (req, res) => {
