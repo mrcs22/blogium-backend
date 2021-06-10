@@ -31,7 +31,16 @@ app.get("/posts/:id", (req, res) => {
 
 app.post("/posts", (req, res) => {
   const post = req.body;
+
+  post.content = post.content.replace("<p>", "").replace("</p>", "");
+  post.contentPreview =
+    post.content.length > 19 ? post.content.split(20)[0] + "..." : post.content;
+
+  data.lastPostId++;
+  post.id = data.lastPostId;
+
   posts.push(post);
+
   fs.writeFileSync("./src/data.json", JSON.stringify(data));
   res.send("ok");
 });

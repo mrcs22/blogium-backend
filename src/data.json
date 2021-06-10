@@ -1,5 +1,6 @@
 {
-  "lastId": 1,
+  "lastPostId": 1,
+  "lastCommentId": 2,
   "posts": [
     {
       "id": 1,
@@ -10,5 +11,18 @@
       "commentCount": 2
     }
   ],
-  "comments": []
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": "João",
+      "content": "Muito bom esse post! Tá de parabéns"
+    },
+    {
+      "id": 2,
+      "postId": 1,
+      "author": "Maria",
+      "content": "Como faz pra dar palmas?"
+    }
+  ]
 }
